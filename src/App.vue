@@ -1,15 +1,15 @@
 <template>
   <div id="app">
-  <div class="flex justify-center items-center h-screen">
-  <h1 class="font-bold text-9xl text-red-500">VUE WITH TAILWIND</h1>
-  </div>
+  <AppMain/>
   </div>
 </template>
 
 <script>
+import AppMain from './components/AppMain';
 
 export default {
   name: 'App',
+  components:{ AppMain},
 
 }
 </script>
