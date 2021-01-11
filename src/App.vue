@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <Navbar/>
   <AppMain/>
   <LearnMore/>
   </div>
@@ -8,10 +9,11 @@
 <script>
 import AppMain from './components/AppMain';
 import LearnMore from './components/LearnMore';
+import Navbar from './components/Navbar';
 
 export default {
   name: 'App',
-  components:{ AppMain,LearnMore},
+  components:{ AppMain,LearnMore, Navbar},
 
 }
 </script>
