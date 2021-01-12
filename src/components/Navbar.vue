@@ -1,27 +1,25 @@
 <template>
-<div class="text-gray-800 antialized">
-    <nav class="top-0 absolute z-50 w-full flex flex-wrap  items-center justify-between px-2 py-3 navbar-expand-lg">
-        <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
-            <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
-                <a class="text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white" href="">Raymind</a>
-                <button class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none" type="button" onClick="toggleNavbar('example-collapse-navbar')">
-                    <i class="text-white fas fa-bars"></i>
-                </button>
-            </div>
-        <div class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden" id="example-collapse-navbar">
-            <ul class="flex flex-col lg:flex-row list-none ml-auto">
-                <li class="flex items-center">
-                <a class="lg:text-white  lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold" href="">
-                    <i class="lg:text-gray-300  text-gray-500 fab fa-facebook text-lg leading-lg"></i><span class="lg:hidden inline-block ml-2">share</span> </a>
-                </li>
-            <li class="flex items-center">
-                <a class="lg:text-white  lg:hover:text-gray-300  text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold" href=""><i  class="lg:text-gray-300 text-gray-500 fa-twitter text-lg leading-lg"></i>
-                <span class="lg:hidden inline-block ml-2">tweet</span></a>
-            </li>
-            </ul>
+<div class="bg-gray-200 antialized">
+    <header class="lg:px-16 px-6 bg-white flex flex-wrap items-center lg:py-0 py-2">
+        <div class="flex-1 flex justify-between items-center">
+            <a href="#">
+                <svg width="120" height="120">
+    <circle cx="60" cy="60" r="50" stroke="green" stroke-width="2" fill="blue" />
+    <!-- fallback -->
+    <image src="circle.jpg" width="120" height="120" />
+                </svg>
+            </a>
+
+        <label for="menu-toggle" class="cursor-pointer lg:hidden block">
+            <svg class="fill-current text-gray-900" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><title>menu</title><path d="M03h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+            </svg>
+        </label>
+        <input type="checkbox" class="hidden" id="menu-toggle" />   
+
         </div>
-        </div>
-    </nav>
+
+    </header>
+  
 </div>
 
 </template>
