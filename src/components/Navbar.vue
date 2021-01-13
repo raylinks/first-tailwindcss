@@ -33,10 +33,11 @@
                         <a href="#" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400">Register</a>
                     </li>
                      <li>
-                        <a href="/login" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400">Login</a>
+                        <router-link to="/login" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400">Login</router-link>
                     </li>
                     
                 </ul>
+                  <router-view />
             </nav>
             <a href="" class="lg:ml-4 flex items-center justify-start lg:mb-0 mb-4 cursor-pointer">
                 <img src="https://pbs.twimg.com/profile_images/1128143121475342337/e8tkhRaz_normal.jpg" class="rounded-full w-10 h-10 border-2 border-transparent hover:border-indigo-400" alt="raymond">
