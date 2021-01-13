@@ -23,6 +23,9 @@
         <div class="hidden lg:flex lg:items-center lg:w-auto w-full" id="menu">
             <nav>
                 <ul class="lg:flex items-center justify-between text-base text-gray-700 pt-4 lg:pt-0">
+                     <li>
+                        <router-link  to="/" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400">Home</router-link >
+                    </li>
                     <li>
                         <a href="#" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400">Features</a>
                     </li>

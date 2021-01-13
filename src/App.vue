@@ -1,14 +1,10 @@
 <template>
   <div id="app">
-  <Navbar/>
-  <!-- <AppMain/>
-  <LearnMore/> -->
+   <Navbar/> 
   </div>
 </template>
 
 <script>
-// import AppMain from './components/AppMain';
-// import LearnMore from './components/LearnMore';
 import Navbar from './components/Navbar';
 
 export default {
