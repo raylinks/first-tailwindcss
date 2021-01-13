@@ -30,10 +30,10 @@
                         <a href="#" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400">Pricing</a>
                     </li>
                      <li>
-                        <a href="#" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400">Documentation</a>
+                        <a href="#" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400">Register</a>
                     </li>
                      <li>
-                        <a href="#" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400">Support</a>
+                        <a href="/login" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400">Login</a>
                     </li>
                     
                 </ul>
@@ -42,18 +42,18 @@
                 <img src="https://pbs.twimg.com/profile_images/1128143121475342337/e8tkhRaz_normal.jpg" class="rounded-full w-10 h-10 border-2 border-transparent hover:border-indigo-400" alt="raymond">
             </a>
         </div>
-    
+     
         
 
     </header>
 
-    <div class="px-4">
+    <!-- <div class="px-4">
         <div class="max-w-3xl bg-white rounded-lg mx-auto my-16  p-16">
             <h1 class="text-2xl font-medium mb-2">Let's build: with tailwind </h1>
             <h2 class="font-medium text-sm text-indigo-400 mb-4 uppercase tracking-wide">Responsive navbar</h2>
             i am here with you guys
         </div>
-    </div>
+    </div> -->
   
 </div>
 
