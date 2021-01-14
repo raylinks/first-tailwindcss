@@ -1,8 +1,7 @@
 <template>
-  <MainLayout>
-    <div class="flex items-center justify-center h-screen">
-      <div
-        class="max-w-sm mx-auto w-full overflow-hidden rounded shadow-lg p-10"
+ 
+    <div class="flex items-center justify-center h-screen" >
+      <div class="mx-auto w-full   overflow-hidden rounded shadow-lg p-10"
       >
         <p class="text-center text-green-600 text-2xl font-bold">
           SELL PERFECT MONEY
@@ -11,11 +10,10 @@
           Sell your funds and get paid in NGN
         </p>
         <br />
-        <form>
+          <form>
           <div id="inputs">
             <div class="my-3 text-center">
-              <label for="account" class="block my-2 text-sm text-left"
-                >Account Number</label
+              <label for="account" class="block my-2 text-sm text-left">Account Number</label
               >
               <input
                 type="text"
@@ -48,10 +46,10 @@
               Trade now
             </button>
           </div>
-        </form>
+        </form>  
       </div>
     </div>
-  </MainLayout>
+  
 </template>
 <style>
 </style>

@@ -5,7 +5,7 @@
             <a href="#">
                 <svg width="120" height="120">
     <circle cx="60" cy="60" r="50" stroke="green" stroke-width="2" fill="blue" />
-    <!-- fallback -->
+
     <image src="circle.jpg" width="120" height="120" />
                 </svg>
             </a>
@@ -27,20 +27,20 @@
                         <router-link  to="/" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400">Home</router-link >
                     </li>
                     <li>
-                        <a href="#" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400">Features</a>
+                        <router-link  to="#" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400">Features</router-link >
                     </li>
                      <li>
-                        <a href="#" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400">Pricing</a>
+                        <router-link  to="#" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400">Pricing</router-link >
                     </li>
                      <li>
-                        <a href="#" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400">Register</a>
+                        <router-link  to="#" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400">Register</router-link >
                     </li>
                      <li>
                         <router-link to="/login" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400">Login</router-link>
                     </li>
                     
                 </ul>
-                  <router-view />
+                 
             </nav>
             <a href="" class="lg:ml-4 flex items-center justify-start lg:mb-0 mb-4 cursor-pointer">
                 <img src="https://pbs.twimg.com/profile_images/1128143121475342337/e8tkhRaz_normal.jpg" class="rounded-full w-10 h-10 border-2 border-transparent hover:border-indigo-400" alt="raymond">

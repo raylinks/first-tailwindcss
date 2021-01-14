@@ -1,9 +1,7 @@
 <template>
   <div>
 
-  <h1>NIGERIA</h1>
+<h1>home page</h1>
+
   </div>
 </template>
-<script>
-
-</script>
