@@ -1,13 +1,13 @@
 <template>
  
-    <div class="flex items-center justify-center h-screen" >
-      <div class="mx-auto w-full   overflow-hidden rounded shadow-lg p-10"
+    <div class="flex items-center justify-center" >
+      <div class="mx-auto overflow-hidden rounded shadow-lg p-10"
       >
         <p class="text-center text-green-600 text-2xl font-bold">
-          SELL PERFECT MONEY
+          RAYLINKS INTERNATIONAL
         </p>
         <p class="text-sm my-3 text-center">
-          Sell your funds and get paid in NGN
+          Input your login details
         </p>
         <br />
           <form>
