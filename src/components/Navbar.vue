@@ -33,7 +33,7 @@
                         <router-link  to="#" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400">Pricing</router-link >
                     </li>
                      <li>
-                        <router-link  to="#" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400">Register</router-link >
+                        <router-link  to="/register" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400">Register</router-link >
                     </li>
                      <li>
                         <router-link to="/login" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400">Login</router-link>
