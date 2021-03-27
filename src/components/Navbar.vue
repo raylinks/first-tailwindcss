@@ -11,8 +11,6 @@
             </a>
         </div>
     
-        
-
         <label for="menu-toggle" class="cursor-pointer lg:hidden block">
             <svg class="fill-current text-gray-900" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><title>menu</title><path d="M03h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
             </svg>
@@ -27,7 +25,7 @@
                         <router-link  to="/" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400">Home</router-link >
                     </li>
                     <li>
-                        <router-link  to="#" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400">Features</router-link >
+                        <router-link  to="/features" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400">Features</router-link >
                     </li>
                      <li>
                         <router-link  to="#" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400">Pricing</router-link >
