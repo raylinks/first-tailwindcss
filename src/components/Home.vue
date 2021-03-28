@@ -1,6 +1,14 @@
 <template>
 <div class="container w-3/4 mx-auto my-4  min-h-screen px-4 py-4 bg-no-repeat h-40 bg-center" style="background-image: url('images/devs.jpg')">
 </div>
+<div class=" grid grid-cols-3 gap-4">
+      <h1 class="text-5xl">welcome</h1>
+          <img class="h-64 w-64 rounded-full object-cover"  src="https://source.unsplash.com/random" alt="" />
+              <h1 class="text-5xl">welcome</h1>
+           <img class="h-64 w-64 rounded-full object-cover"  src="https://source.unsplash.com/random" alt="" />
+               <h1 class="text-5xl">welcome</h1>
+                  <img class="h-64 w-64 rounded-full object-cover"  src="https://source.unsplash.com/random" alt="" />
+</div>
 
 
 
@@ -23,5 +31,5 @@
       <h5 class="font-2xl font-semibold">some image information</h5>
       <P class="text-center mt-4 "><span class="text-purple-900 font extrabold"> i love this language</span> it is interesting </P> 
       </div>
-  </div> -->
+  </div>  -->
 </template>
